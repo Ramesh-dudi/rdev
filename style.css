@@ -1,0 +1,130 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/*Mobile Responsive */
+@media screen and (max-width:767px){
+ .main-page {
+    width:100%;
+    height: auto;
+   }
+   .name h1{
+      font-weight: 100;
+       text-align: center;
+       line-height: 7;
+       font-size: 25px;
+       color:seashell;
+       
+    }
+    .name h2{
+       line-height: 1;
+       color:seashell;
+       text-align: center;
+       font-size: 20px;
+       margin: 0%;
+    }
+}
+/*Tablet Responsive*/
+@media screen and (min-width:768px) and (max-width:1023px){
+   .main-page {
+      width:100%;
+      height: auto;
+   }
+   .name h1{
+      font-weight: 100;
+       text-align: center;
+       line-height: 3;
+       font-size: 50px;
+       color:seashell;
+       
+    }
+    .name h2{
+       color:seashell;
+       text-align: center;
+       font-size: 20px;
+       margin: 0%;
+    }
+}
+/*Desktop Responsive*/
+@media screen and (min-width:1024px){
+   .main-page {
+      width:100%;
+      height: auto;
+    }
+    .name h1{
+      font-weight: 100;
+       text-align: center;
+       line-height: 2;
+       font-size: 100px;
+       color:seashell;
+    }
+    .name h2{
+       color:seashell;
+       text-align: center;
+       font-size: 20px;
+       margin: 0%;
+    }
+   
+}
+.header {
+   top:0px;
+   height: 45px;
+   width: 100%;
+   position: fixed;
+   background-color:#525e65;
+}
+.header-list {
+   list-style: none;
+   text-align: center;
+   color:#DBE8D4;
+}
+.header-list li {
+   display: inline-block;
+   font-size: 20px;
+   padding: 10px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.header-list li a {
+   text-decoration-line: none;
+   list-style: none;
+   text-align: center;
+   color:#DBE8D4;
+}
+.header-list li:hover {
+   color: #73CCA8;
+   font-size: 20px;
+   border-bottom: 4px solid #73CCA8;
+   cursor: pointer;
+}
+.container {
+   width: 100%;
+   background-color:#222733;
+   height: auto;
+}
+.imglogo {
+   border-radius: 50%;
+}
+.text {
+   text-align: center;
+   font-size: 22px;
+   color:#fff;
+   justify-content: center;
+}
+.about h1{
+ margin-top: 50px;
+ text-align: center;
+ font-size: 50px;
+ color:#DBE8D4; 
+}
+
+.text p{
+    margin-top:40px;
+    padding-left:25%;
+    padding-right: 25%;
+    line-height: 1.5;
+    text-align:justify;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
